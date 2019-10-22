@@ -14,7 +14,7 @@ class Home extends Component {
             <View style={{ margin: 18, flex: 1, justifyContent: 'center' }}>
                 <Text style={{ margin: 18, fontSize: 18, textAlign: 'center' }}>Welcome To Stack Navigation</Text>
 
-                <Text style={{margin:18,textAlign:'center',fontSize:16}}>This is stack's home with header. Feel comportable and enjoy with all the stuffs here.</Text>
+                <Text style={{ margin: 18, textAlign: 'center', fontSize: 16 }}>This is stack's home with header. Feel comportable and enjoy with all the stuffs here.</Text>
                 <Button
                     title={'Click me to navigate to Drawer'}
                     onPress={this.gotoDrawer}
